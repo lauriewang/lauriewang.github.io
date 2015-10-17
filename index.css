@@ -1,0 +1,91 @@
+html { 
+  background: url(http://i.imgur.com/j1jkDMw.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#homepagetop{
+			text-align: center;
+			background-size: cover;
+			color: black;
+		}
+		#nav{
+			padding: 20px;
+			background: rgba(0,0,0,0.5);
+			text-align: center;
+    		min-width: 500px;
+		}
+		li{
+			display: inline;
+			float: center;
+			padding: 0px 30px 0px 30px;
+		}
+		a{
+			font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+			display: inline;
+			width: 100px;
+			color: white;
+			font-size: 16px;
+			font-weight: bold;
+			text-decoration: none;
+		}
+		a:hover, a:active {
+    		background-color: #333;
+		}
+		img{
+			margin: 40px 0px 0px 0px;
+			border: 7px white;
+			border-radius: 20px;
+		}
+		h1{
+			font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+			font-size: 60px;
+			color: white;
+		}
+		h3{
+			font-family: "Calisto MT","Bookman Old Style",Bookman,"Goudy Old Style",Garamond,"Hoefler Text","Bitstream Charter",Georgia,serif;
+			font-size: 20px;
+			color: white;
+		}
+		body{
+			text-align: left;
+			font-family: helvetica;
+			background-color: none;
+			background-repeat: no-repeat;
+			background-size; cover;
+			background-position: center;
+		}
+		p{
+			font-size: 18px;
+		}
+		input{
+			border: 1;
+			padding: 10px;
+			font-size: 18px;
+		}
+		input[type="submit"]{
+			background: black;
+			color: white;
+		}
+		article{
+			max-width: 900px;
+			padding: 20px;
+			margin: 0 auto;
+		}
+		@media (max-width: 900px){
+			h1{
+				font-size: 36px;
+			}
+			li{
+				display: block;
+				padding: 5px;
+			}
+		}
+		button{
+			background: black;
+			color: white;
+			font-size: 18px;
+			border: 0;
+			padding: 10px;
+		}
